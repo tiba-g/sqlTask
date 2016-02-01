@@ -1,0 +1,1 @@
+select DEPARTMENT_ID , avg(salary) from employees group by DEPARTMENT_ID having count( DEPARTMENT_ID) > 10;

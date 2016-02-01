@@ -1,0 +1,1 @@
+select FIRST_NAME , LAST_NAME from employees where (SALARY < 10000 or SALARY > 15000) and ( DEPARTMENT_ID = 30 or DEPARTMENT_ID = 100);

@@ -1,0 +1,1 @@
+SELECT JOB_ID, max(SALARY) FROM employees group by JOB_ID having max(SALARY) >= 4000;

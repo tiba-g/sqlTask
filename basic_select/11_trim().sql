@@ -1,0 +1,1 @@
+SELECT trim(FIRST_NAME) from employees;

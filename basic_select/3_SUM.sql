@@ -1,0 +1,1 @@
+select sum(SALARY) FROM employees;

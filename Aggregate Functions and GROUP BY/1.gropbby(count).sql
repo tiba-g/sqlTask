@@ -1,0 +1,1 @@
+select jobs.JOB_TITLE , count(*) from employees join jobs on employees.JOB_ID = jobs.JOB_ID group by employees.JOB_ID;

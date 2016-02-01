@@ -1,0 +1,1 @@
+select MANAGER_ID, EMPLOYEE_ID, SALARY from employees group by SALARY limit 1;

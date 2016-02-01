@@ -1,0 +1,1 @@
+SELECT employee_id, SUBSTR(email, 1, LENGTH(email)-3) FROM employees;

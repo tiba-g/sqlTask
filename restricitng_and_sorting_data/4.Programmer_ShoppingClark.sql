@@ -1,0 +1,1 @@
+select LAST_NAME , JOB_TITLE , SALARY from employees inner join jobs where (JOB_TITLE = 'Shipping Clerk' or JOB_TITLE = 'Programmer') and (SALARY != 4500 and SALARY != 10000 and SALARY != 15000);

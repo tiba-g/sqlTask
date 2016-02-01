@@ -1,0 +1,1 @@
+SELECT * FROM locations WHERE LENGTH(street_address) = (SELECT MIN(LENGTH(street_address)) FROM locations);

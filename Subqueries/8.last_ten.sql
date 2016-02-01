@@ -1,0 +1,1 @@
+select * from (select * from employees order by EMPLOYEE_ID desc limit 10) as last_ten order by EMPLOYEE_ID asc;
